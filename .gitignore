@@ -1,0 +1,14 @@
+# Python 3
+__pycache__/
+
+# macOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+
+Pipfile.lock
+
+data/image_data
+data/label_data
+data/model_data
