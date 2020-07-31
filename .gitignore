@@ -11,4 +11,4 @@ Pipfile.lock
 
 data/image_data
 data/label_data
-data/model_data
+# data/model_data
