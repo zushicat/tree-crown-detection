@@ -12,3 +12,4 @@ Pipfile.lock
 data/image_data
 data/label_data
 data/model_data/model_old_*
+data/analysis

@@ -34,4 +34,4 @@ if __name__ == "__main__":
     xml_file_names = os.listdir(XML_LABEL_PATH)
     for xml_file_name in xml_file_names:
         df = _create_label_csv(f"{XML_LABEL_PATH}/{xml_file_name}")
-        df.to_csv(f'{CSV_LABEL_PATH}/{xml_file_name.replace(".xml", ".ccsv")}', index=False)
+        df.to_csv(f'{CSV_LABEL_PATH}/{xml_file_name.replace(".xml", ".csv")}', index=False)

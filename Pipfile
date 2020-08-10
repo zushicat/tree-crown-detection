@@ -12,7 +12,9 @@ lxml = "*"
 numpy = "*"
 opencv-python = "*"
 pandas = "*"
+Shapely = "*"
 scikit-learn = "*"
+utm = "*"
 
 [requires]
 python_version = "3.7"
