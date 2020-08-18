@@ -10,7 +10,7 @@ import pandas as pd
 
 SCRIPT_DIR = os.path.abspath(os.getcwd())
 IMAGE_DIR_PATH = "../data/image_data"
-LABEL_DIR_PATH = "../data/label_data/predictions"
+LABEL_DIR_PATH = "../data/predictions"
 MODEL_DIR_PATH = "../data/model_data"
 
 IMAGE_WIDTH = 400
@@ -71,8 +71,8 @@ def _save_xml_prediction(label_file_path: str, image_folder: str, image_file_nam
 if __name__ == "__main__":
     image_dirs = os.listdir(IMAGE_DIR_PATH)
     for image_dir in image_dirs:
-        # if image_dir.find("2020_stadtgarten") == -1:
-        #     continue
+        if image_dir.find("neustadt_sued") == -1:
+            continue
         
         current_image_dir_path = f"{IMAGE_DIR_PATH}/{image_dir}"
         if os.path.isdir(current_image_dir_path) is False:
