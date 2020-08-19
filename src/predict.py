@@ -71,8 +71,9 @@ def _save_xml_prediction(label_file_path: str, image_folder: str, image_file_nam
 if __name__ == "__main__":
     image_dirs = os.listdir(IMAGE_DIR_PATH)
     for image_dir in image_dirs:
-        if image_dir.find("neustadt_sued") == -1:
-            continue
+        # debug: dir filter
+        # if image_dir.find("neustadt_sued") == -1:
+        #     continue
         
         current_image_dir_path = f"{IMAGE_DIR_PATH}/{image_dir}"
         if os.path.isdir(current_image_dir_path) is False:

@@ -9,5 +9,5 @@ __pycache__/
 
 Pipfile.lock
 
-data/image_data
-data/predictions
+data/image_data/*/
+data/predictions/*/

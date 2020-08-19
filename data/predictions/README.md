@@ -1,0 +1,1 @@
+A directory with the same name as the one used in /data/image_data will be created and the respective predictions will be stored in created subdirectories /csv and /xml
