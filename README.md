@@ -12,7 +12,7 @@ The model is quite sensible to image resolution, hence use the best resolution a
 
 
 ## Orthographic images
-There are public sources to obtain orthographic images, although there might be tremendous differences regarding the resolution (also depending on the requested timeframe where i.e. images from early 2000 most likely will have a significant lower resolution than current ones).    
+There are many public sources to obtain orthographic images, although there might be tremendous differences regarding the resolution (also depending on the requested timeframe where i.e. images from early 2000 most likely will have a significant lower resolution than current ones).    
 
 Have a look at [this repository](https://github.com/zushicat/crawler-NRW-aerial-images) if you are interested in obtaining (current and historic) orthographic images of North Rhine-Westphalia, Germany.
 
