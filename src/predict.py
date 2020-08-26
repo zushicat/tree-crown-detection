@@ -5,7 +5,6 @@ from _create_xml import create_label_xml
 
 from deepforest import deepforest
 import pandas as pd
-# import matplotlib.pyplot as plt
 
 
 SCRIPT_DIR = os.path.abspath(os.getcwd())
