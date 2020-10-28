@@ -13,7 +13,8 @@ Still, the model could be improved for application on urban landscapes by retrai
 
 Further improvement and the important evaluation process are work in progress.     
 
-The model is quite sensible to image quality, hence use the best quality available. Also, the model is trained on an input shape  of 400 x 400 pixel and the input images will be resized accordingly. Rule of thumb: "The crispier, the better."    
+The model is quite sensible to image quality, hence use the best quality available. Also, the model is trained on an input shape  of 400 x 400 pixel and the input images will be resized accordingly.     
+Rule of thumb regarding input images: "The crispier, the better."    
 
 
 ## Aerial images
