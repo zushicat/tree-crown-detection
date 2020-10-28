@@ -1,8 +1,9 @@
 # tree-crown-detection
 Identify tree crowns in orthographic/aerial image tiles by machine learning object detection.    
 
-![detected tree crowns in aerial image](readme_images/detected_tree_crowns.png)    
-*Example display of predictions in label tool*    
+![](readme_images/detected_tree_crowns_1.png) ![](readme_images/detected_tree_crowns_2.png)    
+![](readme_images/detected_tree_crowns_3.png) ![](readme_images/detected_tree_crowns_4.png)    
+*Example displays of predictions in label tool*    
 
 This is based on [the deepforest project](https://deepforest.readthedocs.io/en/latest/), retrained (finetuned) on arial images of *urban* landscapes incl. young trees in respective surroundings such as streets.    
 
