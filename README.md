@@ -7,6 +7,11 @@ Identify tree crowns in orthographic/aerial image tiles by machine learning obje
 
 This is based on [the deepforest project](https://deepforest.readthedocs.io/en/latest/), retrained (finetuned) on arial images of *urban* landscapes incl. young trees in respective surroundings such as streets.    
 
+**Note**
+If you experience problems of cloning the model data due to lfs bandwidth limitations, please download the model.h5 file here:    
+https://drive.google.com/drive/folders/1PdwBJG3bb2rNwuFR8M-u93KndFHizhpa?usp=sharing    
+and place the file in the directory /data/model_data.    
+
 **Note**    
 Labeling of tree crowns in orthographic images is more difficult than one might assume at first glance. This leads to quite few ground truth images (as of now), hence the data driven evaluation lacks right now.     
 Still, the model could be improved for application on urban landscapes by retraining with around 150 additionally labeled ground truth images and the visual inspection also reflects this improvement.    
